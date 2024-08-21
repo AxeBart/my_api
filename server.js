@@ -20,7 +20,7 @@ io.on('connection', (socket) => {
 })
 
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
     res.send({reponse : 'api sqlit fonctionnel'})
     res.end()
 })
