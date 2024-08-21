@@ -25,6 +25,6 @@ app.get('/', (req, res) => {
     res.end()
 })
 
-server.listen(process.env.PORT, () => {
+server.listen(process.env.PORT || 3000, () => {
     console.log(`started`);
 });
